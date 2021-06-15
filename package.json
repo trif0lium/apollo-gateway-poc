@@ -1,0 +1,8 @@
+{
+  "name": "apollo-gateway-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/trif0lium/apollo-gateway-poc.git",
+  "author": "trif0lium <gh@fleeingsunlight.dev>",
+  "license": "MIT"
+}
