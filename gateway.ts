@@ -20,10 +20,12 @@ async function start() {
       subscriptions: false,
     });
 
+    await apolloServer.start();
     const app = express();
     apolloServer.applyMiddleware({ app });
 
     app.listen(5000);
+    console.log(process.memoryUsage());
   } catch (e) {
     await start();
   }
